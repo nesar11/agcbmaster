@@ -81,14 +81,12 @@ const Header = () => {
                                        <ul className="sub-menu">
                                           <li><Link href="/blog"><a>News</a></Link></li>
                                           <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                                          <li><Link href="/pricing"><a>Pricing</a></Link></li>
                                        </ul>
                                     </li>
                                     <li><a href="#">Contact</a>
                                        <ul className="sub-menu">
                                          
                                           <li><Link href="#"><a>Privacy Policy</a></Link></li>
-                                          <li><Link href="/about"><a>About</a></Link></li>
                                           <li><Link href="/faq"><a>FAQ</a></Link></li>
                                           <li><Link href="/contact"><a>Contact</a></Link></li>
                                        </ul>
@@ -113,7 +111,7 @@ const Header = () => {
                                  <a className="search-btn nav-search search-trigger" href="#!" onClick={() => { setSearchOpen(!searchOpen) }}><i><FontAwesomeIcon icon={['fas', 'search']} /></i></a>
                               </div>
                               <div className="header-btn">
-                                 <Link href="/about"><a className="theme-btn theme-btn-small">Free Estimate</a></Link>
+                                 <Link href="https://play.google.com/store/apps/details?id=io.aladeen.trader"><a className="theme-btn theme-btn-small">Download App</a></Link>
                               </div>
                            </div>
                         </div>

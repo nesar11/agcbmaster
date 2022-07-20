@@ -12,74 +12,36 @@ class FaqAccordion extends Component {
                         <div className="faq-wrapper">
                             <div className="choose-right" data-aos="fade-left" data-aos-duration="1000">
                                 <div className="accordion" id="accordionExample">
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingOne">
-                                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                How to process the funtion for development?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>There are many variations of passages of available but the majority have suffered alteration in that some form by injected randomised words which don’t look even as slightly believable.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingTwo">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Where should I incorporate my business?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Web fonts are often terrible for web performance and none of the font loading strategies are particularly effective to address that. Upcoming font options may finally deliver on the promise.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingThree">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                How there are many variations of passages?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingFour">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Everything to keep in mind when designing?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingFive">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                Different Ways To Design Digital Product?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
+                                    
+   
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-10">
                         <div className="faq-wrapper-2">
                             <div className="choose-right" data-aos="fade-left" data-aos-duration="1000">
                                 <div className="accordion" id="accordionExample2">
+
+
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="general-tab" data-bs-toggle="tab" data-bs-target="#general" type="button" role="tab" aria-controls="general" aria-selected="true">Genral</button>
+                                    
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="storage-tab" data-bs-toggle="tab" data-bs-target="#storage" type="button" role="tab" aria-controls="storage" aria-selected="false">Store</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="trading-tab" data-bs-toggle="tab" data-bs-target="#trading" type="button" role="tab" aria-controls="trading" aria-selected="false">Trading Platform</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="reward-tab" data-bs-toggle="tab" data-bs-target="#reward" type="button" role="tab" aria-controls="reward" aria-selected="false">Rewad Points</button>
+                                    </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" id="headingSix">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
@@ -93,6 +55,21 @@ class FaqAccordion extends Component {
                                         </div>
                                     </div>
                                     <div className="accordion-item">
+                                        <h2 className="accordion-header" id="headingSix">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                                As designers, we are often burdened by the responsibility?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample2">
+                                            <div className="accordion-body">
+                                                <p>There are many variations of passages of available but the majority have suffered alteration in that some form by injected randomised words which don’t look even as slightly believable.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="storage" role="tabpanel" aria-labelledby="storage-tab">
+                                    <div className="accordion-item">
                                         <h2 className="accordion-header" id="headingSeven">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                                 How To Organize Product-Related Assets?
@@ -104,18 +81,9 @@ class FaqAccordion extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingEight">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                Choosing A New Serverless Database Technology?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
-                                            <div className="accordion-body">
-                                                <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
-                                            </div>
-                                        </div>
+                                    
                                     </div>
+                                    <div class="tab-pane fade" id="trading" role="tabpanel" aria-labelledby="trading-tab">
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" id="headingNine">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -128,18 +96,9 @@ class FaqAccordion extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingTen">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                Improving Your Team’s Communication?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTen" className="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample2">
-                                            <div className="accordion-body">
-                                                <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
-                                            </div>
-                                        </div>
+
                                     </div>
+                                    <div class="tab-pane fade" id="reward" role="tabpanel" aria-labelledby="reward-tab">
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" id="headingEleven">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
@@ -152,6 +111,13 @@ class FaqAccordion extends Component {
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
                         </div>
