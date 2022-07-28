@@ -71,7 +71,7 @@ class BlogSlider extends Component {
                                         <SwiperSlide>
                                             <div className="kblog swiper-slide">
                                                 <div className="kblog-img">
-                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-1.webp" className="img-fluid" alt="blog-img"/></a></Link>
+                                                    <Link href="/blog-details"><a><img src="assets/img/blog/blog-img-1.webp " className="img-fluid" alt="blog-img"/></a></Link>
                                                     <span>20 May</span>
                                                 </div>
                                                 <div className="kblog-text">

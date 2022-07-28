@@ -9,14 +9,10 @@ class Testimonial extends Component {
     render() {
 
         return (
-            <section className="testimonial-area pt-115 pb-85">
+            <section className="testimonial-area pt-105 pb-35">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="section-title-wrapper text-center mb-45">
-                                <h5 className="section-subtitle mb-20">client testimonials</h5>
-                                <h2 className="section-title mb-35">What they say?</h2>
-                            </div>
                         </div>
                     </div>
 
@@ -55,87 +51,33 @@ class Testimonial extends Component {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slide">
                                     <div className="ktestimonial-text">
-                                        <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+                                        <h2>Vission</h2>
+                                        <p>To become the leading technology-based organization, providing blockchain-powered Islamic hybrid finance solutions to the World.</p>
                                     </div>
-                                    <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <img src="assets/img/testimonial/testimonial-img-1.jpg" className="img-fluid" alt="client-img"/>
-                                        </div>
-                                        <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Jessica Brown</h5>
-                                            <span className="uppercase">Customer</span>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slide">
                                     <div className="ktestimonial-text">
-                                        <p>Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons Neque porro est qui.</p>
+                                        <h2>Mission</h2>
+                                        <p>To demonstrate services to our customers by financial solutions that are profitable, convenient, and Shariah-compliant.</p>
                                     </div>
-                                    <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <img src="assets/img/testimonial/testimonial-img-2.jpg" className="img-fluid" alt="client-img"/>
-                                        </div>
-                                        <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Mike Hardson</h5>
-                                            <span className="uppercase">Customer</span>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slide">
                                     <div className="ktestimonial-text">
-                                        <p>Useful CSS tools for animations, border-radius, CSS shadows, cubic-bezier curves, easing gradients, filters, placeholders, CSS Grid.</p>
+                                        <h2>Core Purpose</h2>
+                                        <p>Giving opportunities to our customers in achieving their financial goals in accordance to Islamic financial principles</p>
                                     </div>
-                                    <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <img src="assets/img/testimonial/testimonial-img-3.jpg" className="img-fluid" alt="client-img"/>
-                                        </div>
-                                        <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Sarah Albert</h5>
-                                            <span className="uppercase">Customer</span>
-                                        </div>
-                                    </div>
+     
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
-                                <div className="ktestimonial mb-30 swiper-slide">
-                                    <div className="ktestimonial-text">
-                                        <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
-                                    </div>
-                                    <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <img src="assets/img/testimonial/testimonial-img-4.jpg" className="img-fluid" alt="client-img"/>
-                                        </div>
-                                        <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Melinda Brown</h5>
-                                            <span className="uppercase">Customer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="ktestimonial mb-30 swiper-slide">
-                                    <div className="ktestimonial-text">
-                                        <p>Core Web Vitals, CrUX, Lighthouse, performance budgets, CSS & JavaScript performance, assets optimizations, build optimizations.</p>
-                                    </div>
-                                    <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <img src="assets/img/testimonial/testimonial-img-5.jpg" className="img-fluid" alt="client-img"/>
-                                        </div>
-                                        <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Andrew Tye</h5>
-                                            <span className="uppercase">Customer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
                             </Swiper>
                         </div>
                     </div>

@@ -1,4 +1,6 @@
+
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class FaqAccordion extends Component {
 
@@ -45,28 +47,65 @@ class FaqAccordion extends Component {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header" id="headingSix">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                                As designers, we are often burdened by the responsibility?
+                                                When was AGCB established?
                                             </button>
                                         </h2>
                                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample2">
                                             <div className="accordion-body">
-                                                <p>There are many variations of passages of available but the majority have suffered alteration in that some form by injected randomised words which don’t look even as slightly believable.</p>
+                                                <p>Founded in 2020, AGCB aims to transform the modern economic system into the Islamic Economic system based on fairness, sustainability, and free of interest (Riba). ACGB too is a leading technology-based organization providing blockchain-powered Islamic hybrid finance which is led by a team of visionaries. Al-Ebreiz is headquartered in Kuala Lumpur, Malaysia with plans already in place for expansion into Singapore, Indonesia, and the Middle East.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
-                                        <h2 className="accordion-header" id="headingSix">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                                As designers, we are often burdened by the responsibility?
+                                        <h2 className="accordion-header" id="headingSeven">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                               What is AlaDeen Gold?
                                             </button>
                                         </h2>
-                                        <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample2">
+                                        <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
                                             <div className="accordion-body">
-                                                <p>There are many variations of passages of available but the majority have suffered alteration in that some form by injected randomised words which don’t look even as slightly believable.</p>
+                                                <p>AlaDeenGold is a new way to own and trade gold via a digital application built to provide the most secure without any inconvenience of physical storage and security for gold, represented with physical gold and is used as a value of exchange. These apps were designed with users in mind, providing a safe and great trading experience.</p>
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="accordion-item">
+                                        <h2 className="accordion-header" id="headingSeven">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                               What is AlaDeen Gold?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
+                                            <div className="accordion-body">
+                                                <p>The AlaDeen Gold application is available on Android and iOS. 
+                                                    For Android:
 
+                                                    <ul> <li>Open the Google Play Store website or the Google Play Store on your Android smartphone</li>
+                                                    <li>Search for “AlaDeen Gold Wallet” </li>
+                                                    <li>Tap “Install”</li>
+                                                    <li>Review the requested permissions and select “OK”</li>
+                                                    <a href="https://play.google.com/store/apps/details?id=io.aladeen.trader"> <li>Click Here To Download From Play Store</li></a>  
+                                                    
+                                                    </ul>
+
+                                                    For iOS:
+
+                                                    <ul>
+                                                        <li> Open the App Store</li>
+                                                        <li>Search for “AlaDeen Gold Wallet”</li>
+                                                        <li>     Tap “Get””</li>
+                                                        <li> Review the requested permissions and select “OK”</li>
+                                                      <a href="https://apps.apple.com/my/app/aladeen-gold-wallet/id1573265523"><li> Click Here To Download From App Store </li> </a>
+                                                         </ul>
+                                                        
+                                                       
+                                                    
+                                               
+                                                   
+                                                    Click Here To Download From App Store</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        {/* General end */}
                                     </div>
                                     <div class="tab-pane fade" id="storage" role="tabpanel" aria-labelledby="storage-tab">
                                     <div className="accordion-item">
