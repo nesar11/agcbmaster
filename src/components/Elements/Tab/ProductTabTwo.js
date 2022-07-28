@@ -7,6 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 import Link from 'next/link';
 import ProductGold from '../../Blog/ProductGold';
 import ProductDinar from '../../Blog/ProductDinar';
+import ProductPackage from '../../Blog/ProductPackage';
 
  
 export default () => (
@@ -50,76 +51,9 @@ export default () => (
 
             <TabPanel>
             <div className="row aportfolio-active">
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-5.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>Graphic</span>
-                                <h5 className="kproject-text-title"><Link href="/project-details"><a>Fimlor Experience</a></Link></h5>
-                            </div>
-                            <div className="kproject-text-icon">
-                                <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-6.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>Design</span>
-                                <h5 className="kproject-text-title"><Link href="/project-details"><a>Fimlor Experience</a></Link></h5>
-                            </div>
-                            <div className="kproject-text-icon">
-                                <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-8.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>Networking</span>
-                                <h5 className="kproject-text-title"><Link href="/project-details"><a>Fimlor Experience</a></Link></h5>
-                            </div>
-                            <div className="kproject-text-icon">
-                                <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-9.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>Graphics</span>
-                                <h5 className="kproject-text-title"><Link href="/project-details"><a>Fimlor Experience</a></Link></h5>
-                            </div>
-                            <div className="kproject-text-icon">
-                                <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <div className="kproject kproject-2 mb-30">
-                        <img src="assets/img/project/project-img-10.jpg" className="img-fluid" alt="project_img"/>
-                        <div className="kproject-text kproject-text-2">
-                            <div className="kproject-text-content">
-                                <span>Design</span>
-                                <h5 className="kproject-text-title"><Link href="/project-details"><a>Fimlor Experience</a></Link></h5>
-                            </div>
-                            <div className="kproject-text-icon">
-                                <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
+                <ProductPackage />
+                
             </div>
             </TabPanel>
 
