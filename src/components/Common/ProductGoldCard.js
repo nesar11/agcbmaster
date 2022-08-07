@@ -20,24 +20,21 @@ const ProductGoldCard = ({ gold }) => {
         //     </div>
         // </div>
 
-        <div className="col-lg-8 col-md-8" style={{ boxshadow: ' 8px 6px 5px 0px rgba(181,173,173,0.75)' }}>
-            <div className="kproject kproject-2 mb-30">
-                <img src={'/' + gold.image} alt="blog image" className="img-fluid" />
-                <div className="kproject-text kproject-text-2">
-                    <div className="kproject-text-content">
-                        <p>{gold.weight}</p>
+        <div className="col-lg-8 col-md-8 col-xs-12" style={{ boxshadow: ' 8px 6px 5px 0px rgba(181,173,173,0.75)' }}>
+            <div className="kproject-text-content  mb-30">
+               <a href="https://shopee.com.my/alebreizglobal" target="_blank"> <img src={'/' + gold.image} alt="blog image" /></a>
+            </div>
+                <div className="kproject-text-content">
+                    <div className="kproject">
+                        <h3>{gold.weight}</h3>
                         <span>{gold.name}</span>
-                        
-                    </div>
-                    <div className="kproject-text-icon">
-                       
-                        <Link href="/project-details"><a><i><FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} /></i></a></Link>
+
                     </div>
                 </div>
-            </div>
-            <div className="">
-
-           <Link href={gold.url}><a className='theme-btn border-btn'><i> View<FontAwesomeIcon icon={['fas', 'chevron-right']} /></i></a></Link>
+            <div className="d-flex item-content-justify">
+            <Link className="header-social" href="https://api.whatsapp.com/send?phone=601111335693"><a><i><FontAwesomeIcon icon={['fas', 'whatsapp-f']} /></i></a></Link>
+                <Link href="https://api.whatsapp.com/send?phone=601111335693" target="_blank"><a className='btn'> WA</a></Link>
+                <Link href="https://shopee.com.my/alebreizglobal" target="_blank"><a className='btn'> Buy</a></Link>
             </div>
             <style jsx>{`
                  .col-lg-8, .col-md-8 {

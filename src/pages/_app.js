@@ -7,6 +7,8 @@ import store from '../redux/store';
 import { loadIcons } from '../utils/IconLoader';
 
 
+
+
 loadIcons();
 
 class MyApp extends App {
