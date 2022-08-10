@@ -36,30 +36,30 @@ class TeamTwo extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-8 m-auto d-flex'>
-                            <div className='d-flex flex-column pr-20'>
-                                <div className="kteam-img">
-                                    <img src="assets/img/team/manap.webp" className="img-fluid" alt="team-img" />
+                            <div className='col-8 m-auto flex-column flex-lg-row d-flex'>
+                                <div className='col-xs-12   pr-20'>
+                                    <div className="kteam-img">
+                                        <img src="assets/img/team/manap.webp" className="img-fluid" alt="team-img" />
+                                    </div>
+                                    <div className="kteam-text text-center">
+                                        <h4 className="kteam-title"><Link href="/team-details"><a>DATO' HAJI ABDUL MOIS HASHIM</a></Link></h4>
+                                        <span className="uppercase ">VP of Corporate Strategy Planning</span>
+                                    </div>
                                 </div>
-                                <div className="kteam-text text-center">
-                                    <h4 className="kteam-title"><Link href="/team-details"><a>DATO' HAJI ABDUL MOIS HASHIM</a></Link></h4>
-                                    <span className="uppercase ">VP of Corporate Strategy Planning</span>
-                                </div>
-                            </div>
-                            <div className='d-flex flex-column pr-20'>
-                                <div className="kteam-img">
-                                    <img src="assets/img/team/aida-1.webp" className="img-fluid" alt="team-img" />
-                                </div>
-                                <div className="kteam-text text-center">
-                                    <h4 className="kteam-title"><Link href="/team-details"><a>SUHAIDA ISMAYUDDIN</a></Link></h4>
-                                    <span className="uppercase">VP of Finance</span>
-                                </div>
+                                <div className='col-xs-12  device-xs visible-xs visible-xs-block   pr-20'>
+                                    <div className="kteam-img">
+                                        <img src="assets/img/team/aida-1.webp" className="img-fluid" alt="team-img" />
+                                    </div>
+                                    <div className="kteam-text text-center">
+                                        <h4 className="kteam-title"><Link href="/team-details"><a>SUHAIDA ISMAYUDDIN</a></Link></h4>
+                                        <span className="uppercase">VP of Finance</span>
+                                    </div>
                             </div>
                             </div>
 
 
                         <h1 className='text-center'>Our Management</h1>
-                        <div className='col-lg-12 d-inline-flex'>
+                        <div className='col-lg-12 flex-column flex-lg-row  d-inline-flex'>
                             <div className='d-flex flex-column pr-20'>
                                 <div className="kteam-img">
                                     <img src="assets/img/team/hashim.png" className="img-fluid" alt="team-img" />
@@ -98,7 +98,7 @@ class TeamTwo extends Component {
                             </div>
                         </div>
                         <h1 className='text-center'>Shariah Advisory Panel (SAP)</h1>
-                        <div className='col-lg-12 d-inline-flex'>
+                        <div className='col-lg-12  flex-column flex-lg-row  d-inline-flex'>
                             <div className='d-flex flex-column pr-20'>
                                 <div className="kteam-img">
                                     <img src="assets/img/team/ustaz-mohd-fadhli-imgjpg.webp" className="img-fluid" alt="team-img" />

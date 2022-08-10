@@ -2,90 +2,74 @@
   [
     {
       "id": "1",
-      "name": "AlaDeen Gold Bar",
-      "weight": ".01g",
+      "name": "AlaDeen Gold Package",
+      "weight": "0.01g",
       "image": "assets/img/product/GoldPackaging/Dinar 1/1 Dinar.jpg",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "2",
-      "name": "AAlaDeen Gold Bar",
+      "name": "AlaDeen Gold Package",
       "weight": "0.5g",
       "image": "assets/img/product/GoldPackaging/Dinar 1-2/1.2 Dinar.jpg",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "3",
-      "name": "AlaDeen Gold Bar",
+      "name": "AlaDeen Gold Package",
       "weight": "1g",
-      "image": "assets/img/product/GoldPackaging/Dinar 1-4/4 dinar-front-01.jpg",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "image": "assets/img/product/GoldPackaging/Gold Bar 0.1g/0.1g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "4",
-      "name": "AlaDeen Gold Bar",
-      "weight": "5g",
-      "image": "assets/img/product/GoldBar/5g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "0.5g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 0.5g/0.5g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "5",
-      "name": "AlaDeen Gold Bar",
-      "weight": "10g",
-      "image": "assets/img/product/GoldBar/10g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "0.25g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 0.25g/0.25g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "6",
-      "name": "AlaDeen Gold Bar",
-      "weight": "20g",
-      "image": "assets/img/product/GoldBar/20g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "1g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 1g/1g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "7",
-      "name": "AlaDeen Gold Bar",
-      "weight": "50g",
-      "image": "assets/img/product/GoldBar/50g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "5g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 5g/5g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "8",
-      "name": "AlaDeen Gold Bar",
-      "weight": "100g",
-      "image": "assets/img/product/GoldBar/100g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "10g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 10g/10g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     },
     {
       "id": "9",
-      "name": "AlaDeen Gold Bar",
-      "weight": "200g",
-      "image": "assets/img/product/GoldBar/200g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
-    },
-     {
-      "id": "9",
-      "name": "AlaDeen Gold Bar",
-      "weight": "500g",
-      "image": "assets/img/product/GoldBar/500g.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
-    },
-     {
-      "id": "9",
-      "name": "AlaDeen Gold Bar",
-      "weight": "1kg",
-      "image": "assets/img/product/GoldBar/1kg.png",
-      "url": "/Our Strategy Create Business Growth",
-      "button": "view"
+      "name": "AlaDeen Gold Package",
+      "weight": "20g",
+      "image": "assets/img/product/GoldPackaging/Gold Bar 20g/20g.jpg",
+      "url": "https://shopee.com.my/alebreizglobal",
+      "button": "Buy"
     }
   ]

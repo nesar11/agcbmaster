@@ -11,7 +11,7 @@ class ProductGoldMain extends Component {
         return (
             <main>
                 {/* breadcrumb-start */}
-				<Breadcrumb pageTitle="Products" />
+				<Breadcrumb pageTitle="Gold" />
 				{/* breadcrumb-end */}
 
                 {/* service-start */}
